@@ -716,6 +716,11 @@ p {
   box-sizing: border-box;
 }
 
+.portfolio-grid {
+  grid-template-columns: 1fr; /* Stack portfolio items in a single column */
+  gap: 20px;
+}
+
 
   /* --- About Section --- */
   /* --- About Section --- */
