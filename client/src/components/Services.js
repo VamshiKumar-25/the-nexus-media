@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 
 // 1. Import your custom PNG icons
-import portraitIcon from '../assets/user.png';
-import weddingIcon from '../assets/calendar.png';
-import commercialIcon from '../assets/camera.png';
-import eventIcon from '../assets/map.png';
+import portraitIcon from '../assets/picture.png';
+import weddingIcon from '../assets/clapper.png';
+import commercialIcon from '../assets/commercial.png';
+import eventIcon from '../assets/drone.png';
 
 
 // Updated ServiceCard component
@@ -42,29 +42,29 @@ const Services = () => {
           icon={portraitIcon}
           title="Portrait Photography"
           description="Professional headshots and personal portraits."
-          duration="1-2 hours"
-          price="24,999"
+          duration="5-6 hours"
+          price="9,999"
         />
         <ServiceCard
           icon={weddingIcon}
-          title="Wedding Photography"
+          title="Reels Shooting"
           description="Complete wedding day coverage and memories."
-          duration="8-12 hours"
-          price="2,09,999"
+          duration="1-3 hours"
+          price="1,999"
         />
         <ServiceCard
           icon={commercialIcon}
           title="Commercial Shoots"
           description="Brand and product photography for businesses."
           duration="2-4 hours"
-          price="49,999"
+          price="4,999"
         />
         <ServiceCard
           icon={eventIcon}
-          title="Event Coverage"
+          title="Skyview Videography"
           description="Corporate events and special occasions."
-          duration="3-6 hours"
-          price="69,999"
+          duration="1-2 hours"
+          price="14,999"
         />
       </div>
     </section>
