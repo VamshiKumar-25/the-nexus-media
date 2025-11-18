@@ -48,7 +48,7 @@ const Services = () => {
         <ServiceCard
           icon={weddingIcon}
           title="Reels Shooting"
-          description="Complete wedding day coverage and memories."
+          description="Viral-ready vertical content for socials."
           duration="1-3 hours"
           price="1,999"
         />
@@ -62,7 +62,7 @@ const Services = () => {
         <ServiceCard
           icon={eventIcon}
           title="Skyview Videography"
-          description="Corporate events and special occasions."
+          description="Dynamic perspectives from high above."
           duration="1-2 hours"
           price="14,999"
         />
