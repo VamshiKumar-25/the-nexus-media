@@ -859,3 +859,11 @@ p {
 .booking-form input[type="date"]:valid:before {
   display: none;
 }
+
+.company{
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+.company:hover{
+  color: var(--text-primary);
+}
