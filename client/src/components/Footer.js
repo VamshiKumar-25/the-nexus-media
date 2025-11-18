@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       </div>
       {/* 3. Update the year in the copyright text */}
-      <p>&copy; 2025 The Nexus Media. All rights reserved. Professional photography services.</p>
+      <p>&copy; 2025 The Nexus Media. A product of <a className='company' href='https://vazrakainnovations.netlify.app/'>Vazraka Innovations Pvt. Ltd.</a></p>
     </footer>
   );
 };
