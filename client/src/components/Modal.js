@@ -110,7 +110,7 @@ const Modal = ({ isOpen, onClose }) => {
                 <label htmlFor="serviceType">Service Type</label>
                 <select id="serviceType" name="serviceType" value={formData.serviceType} onChange={handleChange}>
                   <option>Portrait Session</option>
-                  <option>Reels Shootingy</option>
+                  <option>Reels Shooting</option>
                   <option>Commercial Shoot</option>
                   <option>Skyview Videography</option>
                 </select>
